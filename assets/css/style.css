@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url("../images/logo/toto.png") no-repeat center;
+    z-index: 9999;
+}
+.heading_text {
+    background: #07ffcf;
+   
+}
+.heading{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{}
+.logo img{
+     width: 60px;
+    height: 60px;
+}
+
+
+.heading_text h1 {
+    color: #121402;
+    padding: 35px 0px;
+}
+
+.banar {
+    padding: 110px 0px;
+    background: url(../image/banar.jpg) no-repeat scroll 0 0 / 100% 100%;
+    height: 400px;
+}
+
+.main_result_area {
+    background-color: rgba(240, 215, 25, 0.05);
+    padding: 10px 0px 30px 0px;
+    text-align: left;
+    position: relative;
+    
+}
+.watermark {
+	position: absolute;
+	top: 6%;
+	left: 14%;
+	opacity: 0.2;
+}
+.watermark img{
+     width: 300px;
+}
+.result_date {}
+
+.result_date h1 {
+    font-size: 36px;
+    color: #504caa;
+    padding: 7px 0px;
+}
+
+.result_date h1:last-child {
+    font-size: 20px;
+}
+
+.result_btn {}
+
+.result_btn button {
+    font-size: 36px;
+    color: #f50404;
+    background: #fff;
+    border: gray;
+    box-shadow: 5px 5px 12px 2px rgb(16, 14, 14);
+    transition: 0.5s
+}
+.result_img{
+    max-width: 120px;
+    height: auto;
+}
+
+.result_btn button:hover {
+    color: #000000;
+    background: rgba(169, 212, 239, 0.49);
+}
+
+.live_result {
+    padding: 25px 0px;
+}
+
+.btn.btn-primary.btn-lg {
+    color: #fdfdfd;
+    background-color: #6b12f9;
+    border-color: #0d6efd;
+    font-weight: 700;
+}
+
+/*Change location start*/
+.headoffice_name h4 {
+    font-size: 23px;
+    color: rgb(244, 177, 9);
+    font-weight: 700;
+    line-height: 20px;
+}
+
+/*start location area*/
+.location_area {
+    padding: 25px 0px;
+}
+
+.heaidng_h {
+    margin: 0 auto;
+}
+
+.location_area {
+    padding: 25px 0px;
+   position: relative;
+}
+
+.locaton {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+}
+
+.location_icon {
+    margin-right: 25px;
+}
+
+.location_icon i {
+    font-size: 36px;
+    color: black;
+}
+
+.location_text {}
+
+.location_text h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.location_text h2 {
+    font-size: 16px;
+}
+
+.phone {
+    margin-left: 55px;
+}
+
+/*map area 2nd html start*/
+.location_map {
+    text-align: center;
+    width: 100%;
+}
+
+.location_map iframe {
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 2px 10px 10px 10px gray;
+}
+
+.map_area {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4E7FC9;
+    padding: 25px;
+}
+
+.back_icon {}
+
+.back_icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.back_location {}
+
+.back_location p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/*map area 2nd html end*/
+/*edit Css*/
+/*mebmebr list start*/
+.member_list {}
+
+.member_list h1 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #eb6816;
+}
+
+.member_list h1 i {
+    font-size: 18px;
+    margin-right: 17px;
+    color: #eb6816;
+}
+
+.drow_date h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/*mebmebr list end*/
+.card-text {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.headoffice {
+    padding: 5px 0px;
+    position: relative;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table {
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.t_head {
+    color: #f8f7f7;
+    background: #ff0a00;
+    border: 5px solid #d8a7a7;
+}
+
+th {
+    border: 1px solid #d8a7a7;
+}
+
+td {
+    border: 1px solid #d8a7a7;
+}
+
+.body-border {
+    border: 5px solid #d8a7a7;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ep-logo {
+    flex-basis: 25%;
+}
+
+.ep-logo img {
+    max-width: 100px;
+}
+
+.ep-text {
+    flex-basis: 75%;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ep-text h6 {
+    font-size: 22px;
+    word-spacing: 10px;
+}
+
+.card-text {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.m-toggle {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.m-toggle button {
+    font-size: 22px;
+    color: #000aff;
+    font-weight: 700;
+}
+
+.m-toggle button:hover {
+    color: #000000;
+    background: #00ff31;
+}
+
+@media all and (max-width: 480px) {
+    .table-striped {
+        display: none;
+    }
+}
+
+.btn.btn-primary.btn-lg {
+	color: #fdfdfd;
+	background-color: #f9f9f9;
+	border-color: #0d6efd;
+	font-weight: 700;
+}
+.ep-text a {
+	padding: 0px;
+	color: #0f0f0f;
+}
+
+
+/*China text start-*/
+.chaina_text{}
+.c_textchaina_text{}
+.c_text{}
+.c_text h1{
+    text-align: center;
+     font-size: 36px;
+    font-weight: bold;
+   color: #f40861;
+}
+.c_text p {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px 0px;
+	
+    color: #6b12f9;
+}
+/*China text End-*/
+
+/*boss*/
+.boss{
+    text-align: center;
+}
+.card-titles {
+	font-size: 25px;
+	color: #0010ff;
+}
+.card-texts span {
+	font-size: 15px;
+	font-weight: 400;
+	padding: 3px 0px;
+	color: green;
+}
+
+.aggent{
+    color: #ff0000;
+}
+.aggent i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.padding {
+    padding: 5rem !important
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #4ca746
+}

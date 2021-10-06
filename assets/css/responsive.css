@@ -1,0 +1,13 @@
+@media all and (max-width: 991px) {}
+
+@media all and (max-width: 480px) {
+    .banar {
+        height: 150px;
+    }
+
+    .heading_text h1 {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 320px) {}
